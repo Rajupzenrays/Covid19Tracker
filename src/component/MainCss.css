@@ -1,0 +1,109 @@
+.stateDiv {
+     width: 30%;
+     height: 100px;
+     float: left;
+     text-align: center;
+     border: 2px solid gray;
+     background-color: rgb(255, 255, 255);
+   
+   }
+   
+   .showDiv {
+     background-color: rgb(255, 255, 255);
+     width: 20%;
+     height: 100px;
+     margin-left: 10px;
+     margin-right: 10px;
+     float: left;
+     text-align: center;
+     border: 2px solid gray;
+   }
+   
+   .stateDiv p {
+     font-size: 40px;
+     font-weight: 500;
+     position: relative;
+     top: -35px;
+   }
+   
+   .showDiv p {
+     font-size: 30px;
+     font-weight: 300;
+     position: relative;
+     top: -20px;
+   }
+   
+   .stateDiv h3,
+   .showDiv h3 {
+     background-color: white;
+     position: relative;
+     display: inline;
+     top: -15px;
+     right: 50px;
+   }
+   
+   .graphicalText,
+   .text {
+     text-align: center;
+     padding-top: 20px;
+   }
+   
+   .stetetext {
+     width: 50%;
+     display: inline-block;
+     text-align: center;
+   }
+   
+/* ------------------------------------------------------------------ */
+.topdiv {
+     display: flex;
+     /* flex-wrap: wrap; */
+     flex-direction: row;
+     margin: 20px;
+   }
+   
+   .sideBar {
+     height: 850px;
+     flex: 20%;
+     background-color: #ffffff;
+     padding: 20px;
+     border: 2px solid grey;
+     overflow: scroll;
+   }
+   
+   .MainContainer {
+     height: 850px;
+     flex: 80%;
+     background-color: #ffffff;
+     padding: 20px;
+     border: 2px solid grey;
+     margin-left: 2px;
+     
+
+   }
+   
+   .checkboxMainLabel {
+     font-size: 20px;
+   }
+   
+   .checkboxMainLabel input {
+     transform: scale(2);
+     margin: 10px;
+   }
+   
+   .label {
+     font-size: 20px;
+     margin-left: 20px;
+     display: block;
+     color:grey
+   }
+   
+   .label input {
+       transform: scale(1.5);
+       margin: 12px;
+       color: grey;
+     }
+   
+     /* #checkbox{
+          background-color: red;
+     } */

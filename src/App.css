@@ -1,0 +1,13 @@
+.div{
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+.datepicker{
+    padding: 5px;
+    float: right;
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+}
